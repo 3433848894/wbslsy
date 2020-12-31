@@ -13,7 +13,7 @@ class Ship():
 
         #将每个图像放在屏幕底部中央
         self.rect.centerx = self.screen_rect.centerx
-        self.rect.bottoom = self.screen_rect.bottom
+        self.rect.bottom = self.screen_rect.bottom
     
     def blitme(self):
         """在指定位置绘制图像"""

@@ -12,7 +12,7 @@ class Ship():
         self.screen_rect = screen.get_rect()
     
         #将每个新图像放在屏幕底部中央
-        self.rect.centerx = self.screen__rect.centerx
+        self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
 
     def blitme(self):
