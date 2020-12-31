@@ -7,8 +7,8 @@ class Ship():
         self.screen = screen
 
         #加载图像并获得其外接矩形
-        self.image = pygame.image.load('images/ship.bmp')
-        self.rect = self.image.pygame.event.get_rect()
+        self.image = pygame.image.load(r'F:\code\Git\xiangmu\wbslsy\alien_invasion\images\ship.bmp')
+        self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
         #将每个图像放在屏幕底部中央
