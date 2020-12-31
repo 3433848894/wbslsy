@@ -12,7 +12,7 @@ def run_game():
         (ai_settings.screen_width, ai_settings.screen_height))
     pygame.display.set_caption("Alien Invasion")
 
-    #开始游戏主循环
+    #开始主循环
     while True:
 
         #监视键盘和鼠标事件
