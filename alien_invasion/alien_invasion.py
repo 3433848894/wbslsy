@@ -19,15 +19,9 @@ def run_game():
 
     #开始主循环
     while True:
-        gf.check_events()
+        gf.check_events(ship)
+        gf.update_screen(ai_settings,screen,ship)
 
-        #每次循环重绘屏幕
-        screen.fill(ai_settings.bg_color)
-        ship.blitme()        
-
-        #让最近绘制的屏幕可见
-        pygame.display.flip()
-        
 run_game()
                 
 
