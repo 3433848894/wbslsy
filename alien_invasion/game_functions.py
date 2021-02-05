@@ -3,7 +3,7 @@ import sys
 import pygame
 from bullet import Bullet
 
-def check_keydown_events(event,ai_settings,screen,ship,bullets):
+def check_keydown_events(event,ai_settings,screen,ship,alien,bullets):
     """响应按键"""
     if event.key == pygame.K_RIGHT:
         ship.moving_right = True
@@ -48,6 +48,7 @@ def update_screen(ai_settings,screen,ship,bullets):
     for bullet in bullets.sprites():
         bullet.draw_bullet()
     ship.blitme()
+    alien.blitme()
 
     #让最近绘制的屏幕可见
     pygame.display.flip()
