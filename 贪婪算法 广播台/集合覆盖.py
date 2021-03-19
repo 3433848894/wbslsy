@@ -9,9 +9,9 @@ stations["kthree"] = set(["or","nv","ca"])
 stations["kfour"] = set(["nv","ut"])
 stations["kfive"] = set(["ca","az"])
 
+
 #最后需要一个集合来存储最终选择的广播台
 final_stations = set()
-
 #遍历所有的广播台，选择覆盖了最多未覆盖州的广播台，存储在best_station中
 while states_needed:
     best_station = None
@@ -24,8 +24,8 @@ while states_needed:
             best_station = station
             states_covered = covered
 #在for循环结束后将best_station添加到最终的广播台列表中
-final_stations.add(best_station)
+    final_stations.add(best_station)
 #更新states_needed,该广播台覆盖了一些州，因此不用覆盖这些州
-states_needed -= states_covered
+    states_needed -= states_covered
 #最后打印final_stations
 print (final_stations)
