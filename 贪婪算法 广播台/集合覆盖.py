@@ -23,6 +23,8 @@ while states_needed:
         if len(covered) > len(states_covered):
             best_station = station
             states_covered = covered
+
+            
 #在for循环结束后将best_station添加到最终的广播台列表中
     final_stations.add(best_station)
 #更新states_needed,该广播台覆盖了一些州，因此不用覆盖这些州
