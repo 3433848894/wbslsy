@@ -74,9 +74,9 @@ def create_fleet(ai_settings,screen,aliens):
     number_aliens_x = int(available_space_x / (2 * alien_width))
 
     #创建第一行外星人
-    for alien_number in range^(number_aliens_x):
+    for alien_number in range(number_aliens_x):
         #创建第一个外星人并将其加入当前行
         alien = Alien(ai_settings,screen)
         alien.x = alien_width + 2 * alien_width * alien_number
         alien.rect.x = alien.x
-        alien.add(alien)
+        aliens.add(alien)
