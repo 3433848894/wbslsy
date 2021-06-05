@@ -98,4 +98,4 @@ def create_fleet(ai_settings,screen,ship,aliens):
 
 def update_aliens(aliens):
     """更新外行星人群中所有外星人的位置"""
-    aliens.update
+    aliens.update()
