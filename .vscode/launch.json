@@ -31,8 +31,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/wbslsy/Downloads/git/wbslsy/python",
-      "program": "c:/Users/wbslsy/Downloads/git/wbslsy/python/build/Debug/outDebug",
+      "cwd": "c:/Users/wbslsy/Downloads/git/wbslsy/c++",
+      "program": "c:/Users/wbslsy/Downloads/git/wbslsy/c++/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,0 +1,5 @@
+INPUT n
+i<=0
+WHILE i=0
+    INPUT b
+    a[i]=0

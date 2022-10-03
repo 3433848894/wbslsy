@@ -1,0 +1,17 @@
+INPUT n
+i<=1
+WHILE i<=n
+    INPUT b
+    a[i]<=b
+    i<=i+1
+ENDWHILE
+
+i<=n
+WHILE i>=1
+    OUTPUT a[i]
+    i<i-1
+ENDWHILE
+
+FOR i<-n TO 1
+    OUTPUT i
+    
