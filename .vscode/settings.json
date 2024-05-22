@@ -1,11 +1,27 @@
 {
-  "C_Cpp_Runner.cCompilerPath": "gcc",
-  "C_Cpp_Runner.cppCompilerPath": "g++",
+  "files.defaultLanguage": "c",
+  "editor.formatOnType": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+          // ...  
+      "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && ConsolePauser 0 $dir$fileNameWithoutExt。exe",
+      "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && ConsolePauser 0 $dir$fileNameWithoutExt.exe",
+      "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && ConsolePauser 0 $dir$fileNameWithoutExt.exe",
+          // ...
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": true,
+  "code-runner.clearPreviousOutput": false,
+  "code-runner.ignoreSelection": true,
+  "code-runner.fileDirectoryAsCwd": true,
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp_Runner.cCompilerPath": "C:/Program Files/mingw64/bin/gcc.exe",
+  "C_Cpp_Runner.cppCompilerPath": "C:/Program Files/mingw64/bin/g++.exe",
   "C_Cpp_Runner.debuggerPath": "gdb",
   "C_Cpp_Runner.cStandard": "",
   "C_Cpp_Runner.cppStandard": "",
   "C_Cpp_Runner.msvcBatchPath": "",
-  "C_Cpp_Runner.useMsvc": false,
   "C_Cpp_Runner.warnings": [
     "-Wall",
     "-Wextra",
@@ -27,5 +43,8 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ]
+  ],
+  "C_Cpp.errorSquiggles": "Disabled"
+  },
+  "C_Cpp.errorSquiggles": "Disabled",
 }
